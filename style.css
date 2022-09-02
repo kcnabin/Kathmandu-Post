@@ -1,0 +1,99 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 12px;
+  font-size: 15px;
+}
+
+.nav-bar img {
+  width: 28px;
+  padding: 5px;
+}
+
+.category-links {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.category-links div {
+
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.kpost-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.date-and-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 14px;
+  color: #6d6e71;
+  border-bottom: 1px solid indianred;
+  padding: 4px 24px;
+}
+
+.air-quality {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.slogan {
+  padding-right: 120px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+em {
+  font-weight: bold;
+}
+
+.breaking-news {
+  display: flex;
+  /*justify-content: space-between;*/
+  padding: 6px 24px;
+}
+
+.breaking-news div {
+  padding: 5px 10px;
+  color: #323437;
+  font-weight: bold;
+}
+
+.breaking-news div:hover {
+  color: black;
+}
+
+.breaking-news .whats-news {
+  text-transform: uppercase;
+  color: red;
+  padding-left: 0;
+}
+
+.breaking-news .whats-news:hover {
+  color: red;
+}
