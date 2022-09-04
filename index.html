@@ -7,24 +7,23 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-  <div class="nav-bar">
-    <div class="category-links">
-      <div class="ham-menu"><a href="#"><img src="./icons/ham-menu.png"></a></div>
-      <div class=""><a href="#">National</a></div>
-      <div class=""><a href="#">Politics</a></div>
-      <div class=""><a href="#">Valley</a></div>
-      <div class=""><a href="#">Opinion</a></div>
-      <div class=""><a href="#">Money</a></div>
-      <div class=""><a href="#">Sports</a></div>
-      <div class=""><a href="#">Culture & Arts</a></div>
-    </div>
-    <div class="search">
-      <div class=""><a href="#"><img src="./icons/profile.png" alt=""></a></div>
-      <div class=""><a href="#"><img src="./icons/search.png" alt=""></a></div>      
-    </div>
+<div class="nav-bar">
+  <div class="category-links">
+    <div class="ham-menu"><a href="#"><img src="./icons/ham-menu.png"></a></div>
+    <div class=""><a href="#">National</a></div>
+    <div class=""><a href="#">Politics</a></div>
+    <div class=""><a href="#">Valley</a></div>
+    <div class=""><a href="#">Opinion</a></div>
+    <div class=""><a href="#">Money</a></div>
+    <div class=""><a href="#">Sports</a></div>
+    <div class=""><a href="#">Culture & Arts</a></div>
   </div>
-
+  <div class="search">
+    <div class=""><a href="#"><img src="./icons/profile.png" alt=""></a></div>
+    <div class=""><a href="#"><img src="./icons/search.png" alt=""></a></div>      
+  </div>
+</div>
+<div class="body-content">
   <div class="kpost-logo">
     <a href="#"><img src="./icons/thekathmandupost-logo.png" alt="" height="80px"></a>
   </div>
@@ -55,39 +54,85 @@
   <div class="latest-news">
     <div class="latest-news-col1">
       <div id="news1">
-        <a href="#"><h3>Grade 12 examinations results are out</h3></a>
-        <a href="#"><p>By <a href="#">Post Report</a></p></a>
+        <a href="#" class="news-title"><h4>Grade 12 examinations results are out</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Post Report</a></p></a>
         <div class="brief-summary">
           <p>None of the students secured 4 GPA</p>
           <img src="./photos/grade12result.jpeg">
         </div>
       </div>
       <div id="news2">
-        <a href="#"><h3>Chinese Speaker Li Zhanshu arriving on September 12</h3></a>
-        <a href="#"><p>By <a href="#">Anil Giri</a></p></a>
+        <a href="#" class="news-title"><h4>Chinese Speaker Li Zhanshu arriving on September 12</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Anil Giri</a></p></a>
         <div class="brief-summary">
           <p>The top official is visiting Nepal at the invitation of Speaker Agni Sapkota.</p>
           <img src="./photos/chineseOfficialVisit.jpeg">
         </div>
       </div>
       <div id="news3">
-        <a href="#"><h3>17 amendment proposals to the bill on transitional justice law</h3></a>
-        <a href="#"><p>By <a href="#">Tika R Pradhan</a></p></a>
+        <a href="#" class="news-title"><h4>17 amendment proposals to the bill on transitional justice law</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Tika R Pradhan</a></p></a>
         <div class="brief-summary">
           <p>Victims and rights activists say the current bill provides a loophole to define all murders as non-cruel and grant amnesty for all murders.</p>
           <img src="./photos/judicialLaw.jpeg">
         </div>
       </div>
     </div>
+
     <div class="latest-news-col2">
-      ABC
+      <div id="news4">
+        <img src="./photos/importBan.jpeg" id='imgNews4'>
+        <a href="#" class="news-title"><h4>Partial relaxation of import ban has created confusion, experts say</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Krishana Prasain</a></p></a>
+        <div class="brief-summary">
+          <p>Among the 10 restricted goods, diamonds, large television sets, toys, cards, snacks and tobacco products can now be imported into the country.</p>
+        </div>
+      </div>
+      <div id="news5">
+        <a href="#" class="news-title"><h4>A mediocre story but an excellent film</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Abhimanyu Dixit</a></p></a>
+        <div class="brief-summary">
+          <p>Director Dinesh Raut’s treatment of the source script is what sets ‘Prakash’ apart from other films exploring similar themes.</p>
+          <img src="./photos/prakashMovie.png">
+        </div>
+      </div>
     </div>
+
     <div class="opinion">
-      XYZ
+      
+      <div id="opinion1">
+        <h4>OPINION</h4>
+        <a href="#" class="news-title"><h4>All talk and no action</h4></a>
+        <div class="brief-summary">
+          <p class="op-sum-1">The pandemic has been a compelling reminder for governments to invest more in social protection.</p>
+        </div>
+      </div>
+
+      <div id="opinion2">
+        <a href="#" class="news-title"><h4>Theory of dissent</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Theory of dissent</a></p></a>
+        <div class="brief-summary">
+          <p>None of the above’ is a legitimate option that allows the electorate to reject candidates.</p>
+        </div>
+      </div>
+
+      <div id="opinion3">
+        <a href="#" class="news-title"><h4>Trapped in migration and remittance</h4></a>
+        <a href="#" class="by-line"><p>By <a href="#">Nischal Dhungel</a></p></a>
+        <div class="brief-summary">
+          <p>It is necessary to invest in the skills of Nepali youth to fully realise the demographic <dividend class=""></dividend></p>
+        </div>
+      </div>
+
+
     </div>
   </div>
 
-  <script type="text/javascript" src="script.js" defer></script>
+  <div class="visual-stories">
+    
+  </div>
 
+  <script type="text/javascript" src="script.js" defer></script>
+</div>
 </body>
 </html>
