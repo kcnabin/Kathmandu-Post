@@ -5,7 +5,9 @@ a, a:hover, a:focus, a:active {
 
 body {
   font-family: sans-serif;
+  color: #323437;
 }
+
 
 h1, h2, h3, h4, h5, h6, a, p, div, * {
   padding: 0;
@@ -53,7 +55,10 @@ h1, h2, h3, h4, h5, h6, a, p, div, * {
   display: flex;
   justify-content: center;
 }
-
+.kpost-logo img {
+  width: 40vw;
+  padding: 5px;
+}
 .date-and-weather {
   display: flex;
   justify-content: space-between;
@@ -87,6 +92,8 @@ h1, h2, h3, h4, h5, h6, a, p, div, * {
 .breaking-news div {
   color: #323437;
   font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .breaking-news div:hover {
@@ -123,11 +130,13 @@ h1, h2, h3, h4, h5, h6, a, p, div, * {
 
 .latest-news img {
   width: 160px;
+  height: 95px;
   margin-bottom: 10px;
 }
 
 #news4 > img {
   width: 400px;
+  height: 150px;
 }
 
 .news-title h4 {
@@ -172,6 +181,43 @@ h1, h2, h3, h4, h5, h6, a, p, div, * {
 
 /*visual story section*/
 .visual-stories {
-  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 0 20px 0;
+  color: #323437;
+}
+.visual-story-title > h4 {
+  text-transform: uppercase;
+  color: red;
+  text-decoration: underline;
+  margin-top: 20px;
+}
 
+.visual-stories > div > div {
+  width: 250px;
+  height: 140px;
+  overflow: hidden;
+  margin: 10px 10px 10px 0;
+}
+.visual-stories > div > div > img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+
+}
+
+.visual-stories > div > div > img:hover {
+  transform: scale(1.2);
+
+}
+
+.visual-stories > div > h4 {
+  margin-top: 8px;
+  margin-bottom: ;
+  width: 250px;
+}
+
+.about-us {
+  height: 500px;
 }
