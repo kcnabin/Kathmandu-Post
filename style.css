@@ -221,3 +221,56 @@ h1, h2, h3, h4, h5, h6, a, p, div, * {
 .about-us {
   height: 500px;
 }
+
+.news-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.news-section > div {
+  width: 250px;
+}
+
+.news-section > div > div {
+  padding: 10px;
+  border-left: 1px solid #dadde3;
+  border-right: 1px solid #dadde3;
+  border-bottom: 1px solid #dadde3;
+  font-size: 14px;
+}
+
+.news-section > div > div.news-img {
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+}
+
+.news-section > div > div.headline {
+  font-weight: bold;
+}
+
+
+.news-section > div > h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: indianred;
+  font-size: 14px;
+}
+
+
+
+
+.news-section > div > div > a > img {
+  width: 100%;
+  height: 100%;
+  transition: transform ease 1s;
+}
+
+.news-section > div > div > a > img:hover {
+  transform: scale(1.2);
+}
+
+
